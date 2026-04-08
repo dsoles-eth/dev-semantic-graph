@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "dev-semantic-graph"
+version = "0.1.0"
+description = "A local-first tool that indexes code, documentation, and dependencies to build a searchable knowledge graph for enhanced context awareness."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["python", "sqlite", "networkx", "click"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/{GITHUB_USERNAME}/dev-semantic-graph"
